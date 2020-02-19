@@ -1,4 +1,4 @@
-var endpoint = "https://www.jsonstore.io/3ae905e7d97a1374d68d18deec3a57fc4c3df3e1574ff35c465dd25bb7d62a60";
+var endpoint = "https://www.jsonstore.io/b563b8080e5617dfd9959ab137c091dfd44be5493b94715dd5de9aad7710bd71";
 
 function geturl(){
     var url = document.getElementById("urlinput").value;
@@ -12,8 +12,8 @@ function geturl(){
 }
 
 function getrandom() {
-    var text = "girl-";
-    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var text = "";
+    var possible = "abcdefghijklmnopqrstuvwxyz0123456789";
 
     for (var i = 0; i < 5; i++)
         text += possible.charAt(Math.floor(Math.random() * possible.length));
